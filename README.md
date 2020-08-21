@@ -3,3 +3,7 @@
 ```
 vue add router
 ```
+
+```
+bootstrap vue
+```# sendhive-vue
