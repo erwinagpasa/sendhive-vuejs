@@ -22,11 +22,7 @@
           </div>
         </b-col>
         <b-col cols="6">
-          <b-img
-            src="https://www.drip.com/static/img/public/pages/get/free-trial/hero@2x.jpg?v=20200820-585.428947507816208489"
-            fluid
-            alt="Responsive image"
-          ></b-img>
+          <img src="../assets/hero@2x.jpg" class="img-fluid" alt="Responsive image"/>
         </b-col>
       </b-row>
     </b-container>
