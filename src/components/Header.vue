@@ -4,7 +4,7 @@
       <b-row>
         <b-col cols="6">
           <h1 class="headline">Automate your ecommerce marketing at scale.</h1>
-          <p>Drip is your ecommerce marketing engine. Build personalized customer experiences, drive more revenue, and take your marketing strategy to the next level with Drip.</p>
+          <p>Sendhive is your ecommerce marketing engine. Build personalized customer experiences, drive more revenue, and take your marketing strategy to the next level with Sendhive.</p>
 
           <div>
             <b-form inline>
@@ -18,7 +18,7 @@
               <b-button variant="primary">Try for free</b-button>
               
             </b-form>
-            <small>By submitting, you agree to receive emails from Drip.</small>
+            <small>By submitting, you agree to receive emails from Sendhive.</small>
           </div>
         </b-col>
         <b-col cols="6">
