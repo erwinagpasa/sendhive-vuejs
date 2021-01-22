@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <p class="mt-5 text-center">Trusted by 6,000+ brands</p>
+  <div class="brands-wrapper">
+    <h4 class="mt-5 mb-5 text-center">
+      More than 8,000+ companies trust sendhive
+    </h4>
 
     <b-container class="brands">
       <b-row>
@@ -21,9 +23,6 @@
         <b-col>
           <img alt="Vue logo" src="../assets/spice-house.png" />
         </b-col>
-
-
-
       </b-row>
     </b-container>
   </div>
@@ -36,8 +35,12 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.brands img{
+.brands-wrapper {
+  background: rgb(243, 243, 243);
+  padding-top: 50px;
+  padding-bottom: 130px;
+}
+.brands img {
   width: 120px;
 }
 </style>
-

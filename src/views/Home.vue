@@ -3,6 +3,8 @@
     <Header />
     <TrustedBrand />
     <Empower />
+    <Invest />
+    <Clickthrough />
     <Footer />
   </div>
 </template>
@@ -12,6 +14,8 @@
 import Header from "@/components/Header.vue";
 import TrustedBrand from "@/components/TrustedBrand.vue";
 import Empower from "@/components/Empower.vue";
+import Invest from "@/components/Invest.vue";
+import Clickthrough from "@/components/Clickthrough.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -20,9 +24,9 @@ export default {
     Header,
     TrustedBrand,
     Empower,
+    Invest,
+    Clickthrough,
     Footer,
   },
 };
 </script>
-
-

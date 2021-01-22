@@ -1,46 +1,67 @@
 <template>
-  <div>
- <b-container>
-      <b-row>
-        <b-col cols="6">
-          <h1 class="headline">Automate your ecommerce marketing at scale.</h1>
-          <p>Sendhive is your ecommerce marketing engine. Build personalized customer experiences, drive more revenue, and take your marketing strategy to the next level with Sendhive.</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="headline">Automate your ecommerce marketing at scale.</h1>
+        <p>
+          Sendhive is your ecommerce marketing engine. Build personalized
+          customer experiences, drive more revenue, and take your marketing
+          strategy to the next level with Sendhive.
+        </p>
 
-          <div>
-            <b-form inline>
-              <label class="sr-only" for="inline-form-input-name">Name</label>
-              <b-input
-                id="inline-form-input-name"
-                class="mb-2 mr-sm-2 mb-sm-0"
-                placeholder="Your workemail"
-              ></b-input>
+        <form class="form-inline">
+          <input
+            class="newsletter-input"
+            type="email"
+            name="member[email]"
+            id="member_email"
+            required=""
+            placeholder="Email address"
+          />
 
-              <b-button variant="primary">Try for free</b-button>
-              
-            </b-form>
-            <small>By submitting, you agree to receive emails from Sendhive.</small>
-          </div>
-        </b-col>
-        <b-col cols="6">
-          <img src="../assets/hero@2x.jpg" class="img-fluid" alt="Responsive image"/>
-        </b-col>
-      </b-row>
-    </b-container>
+          <button type="button" class="btn btn-outline-primary">
+            TRY FOR FREE
+          </button>
+        </form>
 
+        <small>By submitting, you agree to receive emails from Sendhive.</small>
+      </div>
+
+      <div class="col-md-6 d-none d-sm-block">
+        <img
+          src="../assets/hero@2x.png"
+          class="img-fluid"
+          alt="Responsive image"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Head',
+  name: "Head",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style lang="css" scoped>
-.headline{
-  margin-top:200px;
+.container-fluid {
+  max-width: 1200px;
+}
+.headline {
+  margin-top: 60px;
+}
+
+.newsletter-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 80px 10px 20px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  font-size: 16px;
 }
 </style>
