@@ -1,16 +1,15 @@
 <template>
   <div class="empower-wrap">
-    <b-container class="mt-5">
-      <b-row>
-        <b-col cols="6">
+    <div class="col-md-10 mx-auto">
+      <div class="row">
+        <div class="col-md-6">
           <img
             src="../assets/why.png"
             class="img-fluid"
             alt="Responsive image"
           />
-        </b-col>
-
-        <b-col cols="6">
+        </div>
+        <div class="col-md-6">
           <h1 class="headline">
             Spend less time on setup and customization.
           </h1>
@@ -25,7 +24,15 @@
             fight back against the powers that be: impersonal giants like
             Amazon. We like to call this the ecommerce rebellion.
           </p>
-        </b-col>
+        </div>
+      </div>
+    </div>
+
+    <b-container class="mt-5">
+      <b-row>
+        <b-col cols="6"> </b-col>
+
+        <b-col cols="6"> </b-col>
       </b-row>
     </b-container>
   </div>

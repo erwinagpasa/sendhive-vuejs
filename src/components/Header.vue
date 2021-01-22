@@ -9,7 +9,7 @@
           strategy to the next level with Sendhive.
         </p>
 
-        <form class="form-inline">
+        <form class="newsletter-form">
           <input
             class="newsletter-input"
             type="email"
@@ -18,13 +18,18 @@
             required=""
             placeholder="Email address"
           />
-
-          <button type="button" class="btn btn-outline-primary">
-            TRY FOR FREE
-          </button>
+          <input
+            class="button newsletter-button btn-outline-primary"
+            type="submit"
+            value="Try for Free"
+          />
         </form>
 
-        <small>By submitting, you agree to receive emails from Sendhive.</small>
+        <div class="col-md-12 text-center">
+          <small
+            >By submitting, you agree to receive emails from Sendhive.</small
+          >
+        </div>
       </div>
 
       <div class="col-md-6 d-none d-sm-block">
@@ -47,21 +52,4 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
-.container-fluid {
-  max-width: 1200px;
-}
-.headline {
-  margin-top: 60px;
-}
-
-.newsletter-input {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px 80px 10px 20px;
-  height: 50px;
-  border-radius: 50px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-</style>
+<style lang="css" scoped></style>

@@ -1,8 +1,8 @@
 <template>
   <div class="invest-wrap">
-    <b-container class="mt-5">
-      <b-row>
-        <b-col cols="6">
+    <div class="col-md-10 mx-auto">
+      <div class="row">
+        <div class="col-md-6">
           <h1 class="headline">
             Invest in stronger relationships with your contacts.
           </h1>
@@ -17,17 +17,16 @@
             fight back against the powers that be: impersonal giants like
             Amazon. We like to call this the ecommerce rebellion.
           </p>
-        </b-col>
-
-        <b-col cols="6">
+        </div>
+        <div class="col-md-6">
           <img
             src="../assets/invest.png"
             class="img-fluid"
             alt="Responsive image"
           />
-        </b-col>
-      </b-row>
-    </b-container>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

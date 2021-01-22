@@ -81,17 +81,10 @@
       </div>
     </footer>
 
-
-
-
-<div class="copyrights text-center">
-&copy; 2020 Sendhive. All rights reserved. 
-<a href="">Privacy Policy</a>
-
-
-</div>  
-
-
+    <div class="copyrights text-center">
+      &copy; 2020 Sendhive. All rights reserved.
+      <a href="">Privacy Policy</a>
+    </div>
   </div>
 </template>
 
@@ -101,10 +94,16 @@ export default {};
 
 <style lang="css" scoped>
 footer {
-margin-top:35px;
-color: #fff;
-background-color: #464646;
+  margin-top: 25px;
+  color: #fff;
+  background-color: #2056d7;
   padding: 70px 0px;
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 footer ul li {
@@ -129,7 +128,7 @@ footer ul li {
 }
 
 .copyrights {
-  background-color: #202020;
+  background-color: #1b4097;
   color: #fff;
   padding: 15px 0 15px 0;
 }
