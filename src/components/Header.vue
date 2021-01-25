@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-6">
         <h1 class="headline">Automate your ecommerce marketing at scale.</h1>
-        <p>
+        <p class="sub-headline">
           Sendhive is your ecommerce marketing engine. Build personalized
           customer experiences, drive more revenue, and take your marketing
           strategy to the next level with Sendhive.
@@ -52,4 +52,9 @@ export default {
 };
 </script>
 
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+.headline,
+.sub-headline {
+  padding-left: 10px;
+}
+</style>
