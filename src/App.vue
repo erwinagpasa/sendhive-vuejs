@@ -38,11 +38,15 @@ body {
   color: #fff;
   transition: all 0.15s ease;
   box-sizing: border-box;
-  border: 1px solid #154ed5;
-  background: #154ed5;
+  border: 1px solid #da5127;
+  background: #da5127;
   margin: 0 0px 0 20px;
 }
 
+.btn-outline-primary:hover {
+  background: #363636;
+  border: 1px solid #363636;
+}
 .newsletter-form {
   position: relative;
   max-width: 550px;
@@ -58,6 +62,7 @@ body {
   border: 1px solid #ccc;
   font-size: 16px;
 }
+
 .newsletter-input:focus {
   outline: none;
   border-color: #ff8900;

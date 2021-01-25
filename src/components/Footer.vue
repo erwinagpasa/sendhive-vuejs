@@ -96,7 +96,7 @@ export default {};
 footer {
   margin-top: 25px;
   color: #fff;
-  background-color: #2056d7;
+  background-color: #363636;
   padding: 70px 0px;
 }
 
@@ -128,8 +128,11 @@ footer ul li {
 }
 
 .copyrights {
-  background-color: #1b4097;
+  background-color: #2f2e2e;
   color: #fff;
   padding: 15px 0 15px 0;
+}
+.copyrights a {
+  color: #da5127;
 }
 </style>
