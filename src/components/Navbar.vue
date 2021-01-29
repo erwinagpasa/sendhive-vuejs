@@ -2,15 +2,19 @@
   <div>
     <b-navbar toggleable="lg" type="light" variant="light">
       <div class="container-fluid">
-        <b-navbar-brand href="#"
-          ><img alt="logo" src="../assets/logo.png" class="logo"
-        /></b-navbar-brand>
+        <b-navbar-brand>
+          <router-link to="/">
+            <img alt="logo" src="../assets/logo.png" class="logo" />
+          </router-link>
+        </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item to="/">Sign In</b-nav-item>
+            <b-nav-item to="/"
+              ><router-link to="/signin">Sign In</router-link></b-nav-item
+            >
             <button type="button" class="btn btn-outline-primary">
               Sign up free
             </button>

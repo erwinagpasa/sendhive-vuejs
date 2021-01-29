@@ -27,6 +27,15 @@ body {
 .container {
   max-width: 80% !important;
 }
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #da5127;
+  text-decoration: none;
+}
 .navbar {
   padding: 10px 20px;
 }
