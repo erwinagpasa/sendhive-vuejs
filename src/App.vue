@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Navbar />
     <!--
     <div id="nav">
       <router-link to="/">Home</router-link>|
@@ -12,12 +11,7 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
-export default {
-  components: {
-    Navbar,
-  },
-};
+export default {};
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
