@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-12 no-gutters row">
-    <div class="form-div2 mx-auto no-gutters mt-5">
+    <div class="form-div2 mx-auto no-gutters">
       <div class="col-md-12 text-center mx-auto  mt-3">
         <img src="../assets/logo.png" class="mt-5" style="max-width:240px;" />
       </div>
@@ -49,7 +49,9 @@
     </div>
     <!--col-md-4-->
 
-    <div class="cover col-md-8 no-gutters"></div>
+    <div class="cover col-md-8 no-gutters">
+      <div class="inner-cover"></div>
+    </div>
     <!--col-md-8-->
   </div>
   <!--row-->
@@ -140,15 +142,11 @@ export default {
 }
 
 .form-div2 {
-  height: 100%;
-}
-body {
+  display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  margin: 0;
-  background-color: #e6e6e6;
+  height: 100vh;
 }
+
 .cover {
   background-image: url(../assets/cover.jpg);
   background-repeat: no-repeat;
@@ -158,7 +156,14 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+.inner-cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 100vh;
+}
 .cover h3,
 .cover p {
   color: #fff;

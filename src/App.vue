@@ -18,11 +18,12 @@ export default {};
 html,
 body {
   height: 100%;
-}
-
-body {
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  background-color: #e6e6e6;
   font-family: "Roboto", sans-serif;
 }
+
 .container {
   max-width: 80% !important;
 }
