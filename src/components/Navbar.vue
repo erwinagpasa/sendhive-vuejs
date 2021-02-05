@@ -15,9 +15,9 @@
             <b-nav-item to="/"
               ><router-link to="/signin">Sign In</router-link></b-nav-item
             >
-            <button type="button" class="btn btn-outline-primary">
+            <router-link to="/signup" class="ml-3 btn btn-outline-primary">
               Sign up free
-            </button>
+            </router-link>
           </b-navbar-nav>
         </b-collapse>
       </div>

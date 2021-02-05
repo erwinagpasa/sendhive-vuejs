@@ -49,7 +49,6 @@ a:hover {
   box-sizing: border-box;
   border: 1px solid #da5127;
   background: #da5127;
-  margin: 0 0px 0 20px;
 }
 
 .btn-outline-primary:hover {
@@ -127,7 +126,8 @@ textarea:hover {
   font-weight: 400;
 }
 
-.form-signin .form-control {
+.form-signin .form-control,
+.form-signup .form-control {
   position: relative;
   box-sizing: border-box;
   height: auto;
@@ -161,9 +161,5 @@ textarea:hover {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-}
-
-.form-signup {
-  margin-top: 70px !important;
 }
 </style>
