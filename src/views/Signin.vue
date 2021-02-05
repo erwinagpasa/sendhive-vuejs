@@ -8,7 +8,8 @@
         <h4 class="mt-3 text-center">Sign in to your account.</h4>
 
         <p class="text-center">
-          Need a sendhive account? <a href="signup">Create an account</a>
+          Need a sendhive account?
+          <router-link to="/signup">Create an account</router-link>
         </p>
 
         <input
@@ -29,23 +30,26 @@
           required
         />
 
-        <p class="float-right"><a href="forgot">Forgot password?</a></p>
+        <p class="float-right">
+          <router-link to="/forgot">Forgot password?</router-link>
+        </p>
 
         <input type="hidden" name="formsubmitted" value="TRUE" />
-        <button type="submit" class="btn btn-lg btn-info btn-block">
+        <button type="submit" class="btn btn-lg btn-outline-primary btn-block">
           Sign In
         </button>
       </form>
+      <div class="text-center">
+        <router-link to="/">
+          <i class="mt-5 fas fa-chevron-circle-left text-secondary fa-2x"></i>
+        </router-link>
+      </div>
 
       <p class="mt-5 text-muted text-center">
         <small
           >&copy; Copyright 2021 - sendhive.io.<br />All rights reserved.</small
         >
       </p>
-
-      <div class="text-center mt-5">
-        <a href="index"><i class="fas fa-3x fa-chevron-circle-left"></i></a>
-      </div>
     </div>
     <!--col-md-4-->
 
@@ -65,6 +69,12 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 992px) {
+  .inner-cover {
+    display: none !important;
+  }
+}
+
 .col,
 .col-1,
 .col-10,
