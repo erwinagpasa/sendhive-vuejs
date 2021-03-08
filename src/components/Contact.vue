@@ -1,5 +1,5 @@
 <template>
-  <div class="clickhtrough-wrap">
+  <div class="contact-wrap">
     <div class="col-md-6 mx-auto mt-5">
       <h2 class="headline text-center">
         Contact Sendhive
@@ -9,11 +9,6 @@
         USA<br />
         <strong>Email:</strong> support@sendhive.io
       </p>
-    </div>
-    <div class="col-md-8 mx-auto text-center">
-      <button type="button" class="btn btn-outline-primary">
-        TRY FOR FREE
-      </button>
     </div>
   </div>
 </template>
@@ -25,8 +20,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.clickhtrough-wrap {
+.contact-wrap {
   padding-top: 50px;
   padding-bottom: 100px;
+  background: #ddd;
 }
 </style>

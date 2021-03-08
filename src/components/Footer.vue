@@ -5,25 +5,13 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <ul class="contact">
-              <span>Features</span>
+              <span>Legal</span>
               <li>
-                <a href="#">Customer Data</a>
+                <router-link to="/terms">Terms of Use</router-link>
               </li>
 
               <li>
-                <a href="#">Personalization</a>
-              </li>
-
-              <li>
-                <a href="#">Engagement</a>
-              </li>
-
-              <li>
-                <a href="#">Optimization</a>
-              </li>
-
-              <li>
-                <a href="#">Contact</a>
+                <router-link to="/">Privacy Policy</router-link>
               </li>
             </ul>
           </div>
@@ -32,11 +20,11 @@
             <ul class="contact">
               <span>Resources</span>
               <li>
-                <a href="#">User Manual</a>
+                <router-link to="/">User Manual</router-link>
               </li>
 
               <li>
-                <a href="#">API Reference</a>
+                <router-link to="/">API Reference</router-link>
               </li>
             </ul>
           </div>
@@ -45,15 +33,15 @@
             <ul class="contact">
               <span>Company</span>
               <li>
-                <a href="#">About</a>
+                <router-link to="/">About</router-link>
               </li>
 
               <li>
-                <a href="#">Careers</a>
+                <router-link to="/">Careers</router-link>
               </li>
 
               <li>
-                <a href="#">Contact</a>
+                <router-link to="/">Contact</router-link>
               </li>
             </ul>
           </div>
@@ -63,7 +51,6 @@
 
     <div class="copyrights text-center">
       &copy; 2021 Sendhive. All rights reserved.
-      <a href="">Privacy Policy</a>
     </div>
   </div>
 </template>
@@ -74,7 +61,7 @@ export default {};
 
 <style lang="css" scoped>
 footer {
-  margin-top: 25px;
+  margin-top: 0px;
   color: #fff;
   background-color: #363636;
   padding: 70px 0px;
