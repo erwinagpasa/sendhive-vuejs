@@ -20,12 +20,12 @@ body {
   height: 100%;
   display: -ms-flexbox;
   -ms-flex-align: center;
-  background-color: #e6e6e6;
+  background: rgb(243, 243, 243);
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  max-width: 80% !important;
+  max-width: 1100px;
 }
 
 a {
@@ -84,9 +84,6 @@ a:hover {
   top: 4px;
 }
 
-.container-fluid {
-  max-width: 1200px;
-}
 .headline {
   margin-top: 60px;
 }

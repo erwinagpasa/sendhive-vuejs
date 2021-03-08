@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light" variant="light">
-      <div class="container-fluid">
+    <b-navbar toggleable="lg" type="light fixed" variant="light">
+      <div class="container">
         <b-navbar-brand>
           <router-link to="/">
             <img alt="logo" src="../assets/logo.png" class="logo" />
@@ -30,6 +30,10 @@ export default {};
 </script>
 
 <style lang="css" scoped>
+.bg-light {
+  background-color: none !important;
+}
+
 .navbar-brand img {
   width: 140px;
 }
