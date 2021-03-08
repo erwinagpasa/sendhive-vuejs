@@ -30,25 +30,13 @@
 
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <ul class="contact">
-              <span>Learn</span>
-              <li>
-                <a href="#">Resources Guides</a>
-              </li>
-
+              <span>Resources</span>
               <li>
                 <a href="#">User Manual</a>
               </li>
 
               <li>
                 <a href="#">API Reference</a>
-              </li>
-
-              <li>
-                <a href="#">Webinars</a>
-              </li>
-
-              <li>
-                <a href="#">Courses</a>
               </li>
             </ul>
           </div>
@@ -58,14 +46,6 @@
               <span>Company</span>
               <li>
                 <a href="#">About</a>
-              </li>
-
-              <li>
-                <a href="#">Manifesto</a>
-              </li>
-
-              <li>
-                <a href="#">Customers</a>
               </li>
 
               <li>
@@ -82,7 +62,7 @@
     </footer>
 
     <div class="copyrights text-center">
-      &copy; 2020 Sendhive. All rights reserved.
+      &copy; 2021 Sendhive. All rights reserved.
       <a href="">Privacy Policy</a>
     </div>
   </div>
