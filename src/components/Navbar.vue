@@ -1,32 +1,50 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="light fixed" variant="light">
-      <div class="container">
-        <b-navbar-brand>
-          <router-link to="/">
-            <img alt="logo" src="../assets/logo.png" class="logo" />
-          </router-link>
-        </b-navbar-brand>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <router-link to="/">
+        <img alt="logo" src="../assets/logo.png" class="logo" />
+      </router-link>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <router-link to="/signin" class="nav-link">Sign In</router-link>
+          </li>
 
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav class="ml-auto">
-            <b-nav-item to="/"
-              ><router-link to="/signin">Sign In</router-link></b-nav-item
+          <li class="nav-item">
+            <router-link
+              to="/signup"
+              class="nav-link ml-3 btn btn-outline-primary"
             >
-            <router-link to="/signup" class="ml-3 btn btn-outline-primary">
               Sign up free
             </router-link>
-          </b-navbar-nav>
-        </b-collapse>
+          </li>
+        </ul>
       </div>
-    </b-navbar>
+    </nav>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Navbar",
+  mounted() {
+    $(window).scroll(function() {
+      $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+    });
+  },
+};
 </script>
 
 <style lang="css" scoped>

@@ -27,14 +27,6 @@
         </div>
       </div>
     </div>
-
-    <b-container class="mt-5">
-      <b-row>
-        <b-col cols="6"> </b-col>
-
-        <b-col cols="6"> </b-col>
-      </b-row>
-    </b-container>
   </div>
 </template>
 
