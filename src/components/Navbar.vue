@@ -39,6 +39,11 @@
 <script>
 export default {
   name: "Navbar",
+  mounted() {
+    $(window).scroll(function() {
+      $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+    });
+  },
 };
 </script>
 
