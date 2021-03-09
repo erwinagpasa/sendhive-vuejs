@@ -4,27 +4,24 @@
       More than 8,000+ companies trust sendhive
     </h4>
 
-    <b-container class="brands">
-      <b-row>
-        <b-col>
-          <img alt="Vue logo" src="../assets/craft.png" />
-        </b-col>
-        <b-col>
+    <div class="container brands">
+      <div class="row">
+        <div class="col"><img alt="Vue logo" src="../assets/craft.png" /></div>
+
+        <div class="col">
           <img alt="Vue logo" src="../assets/lensabl.png" />
-        </b-col>
-        <b-col>
+        </div>
+        <div class="col">
           <img alt="Vue logo" src="../assets/pit-viper.png" />
-        </b-col>
-
-        <b-col>
+        </div>
+        <div class="col">
           <img alt="Vue logo" src="../assets/polaris.png" />
-        </b-col>
-
-        <b-col>
+        </div>
+        <div class="col">
           <img alt="Vue logo" src="../assets/spice-house.png" />
-        </b-col>
-      </b-row>
-    </b-container>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
