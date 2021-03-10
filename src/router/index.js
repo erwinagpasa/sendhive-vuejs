@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import Signin from "../views/Signin.vue";
 import Signup from "../views/Signup.vue";
 import Terms from "../views/Terms.vue";
+import Privacy from "../views/Privacy.vue";
 
 Vue.use(VueRouter);
 
@@ -28,6 +29,13 @@ const routes = [
     name: "Terms",
     component: Terms,
   },
+
+  {
+    path: "/privacy",
+    name: "Privacy",
+    component: Privacy,
+  },
+
   {
     path: "/about",
     name: "About",

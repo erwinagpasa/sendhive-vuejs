@@ -28,4 +28,20 @@ export default {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+
+.btn-outline-primary {
+  padding: 8px 30px 8px 30px !important;
+  border-radius: 2em;
+  display: inline-block;
+  color: #fff !important;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #da5127 !important;
+  background: #da5127;
+}
+
+.btn-outline-primary:hover {
+  background: #363636 !important;
+  border: 1px solid #363636 !important;
+}
 </style>

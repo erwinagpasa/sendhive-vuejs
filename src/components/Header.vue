@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid wrap-header">
     <div class="col-md-8 mt-5 mb-5 text-center mx-auto">
-      <h1 class="headline">Automate your ecommerce marketing at scale.</h1>
+      <h1 class="header">Automate your ecommerce marketing at scale.</h1>
       <p class="sub-headline">
         Sendhive is your ecommerce marketing engine. Build personalized customer
         experiences, drive more revenue, and take your marketing strategy to the
@@ -25,7 +25,9 @@
       </form>
 
       <div class="col-md-12 text-center">
-        <small>By submitting, you agree to receive emails from Sendhive.</small>
+        <small class="text-white"
+          >By submitting, you agree to receive emails from Sendhive.</small
+        >
       </div>
 
       <img alt="slogo" src="../assets/dev8@2x.png" class="img-fluid" />
@@ -56,18 +58,14 @@ export default {
   height: 800px;
   margin-bottom: 170px;
 }
-.headline {
-  color: #fff;
-  font-size: 50px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  margin: 0 0 20px;
-  margin-bottom: 20px;
-}
 
-.headline,
 .sub-headline {
-  padding-left: 10px;
+  color: #fff;
+  font-size: 19px;
+}
+h1.header {
+  margin-top: 65px;
+  font-size: 60px !important;
   color: #fff;
 }
 </style>
