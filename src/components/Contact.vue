@@ -23,6 +23,6 @@ export default {
 .contact-wrap {
   padding-top: 50px;
   padding-bottom: 100px;
-  background: #ddd;
+  background: #fff;
 }
 </style>

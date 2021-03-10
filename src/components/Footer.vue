@@ -11,7 +11,7 @@
               </li>
 
               <li>
-                <router-link to="/">Privacy Policy</router-link>
+                <router-link to="/privacy">Privacy Policy</router-link>
               </li>
             </ul>
           </div>
@@ -63,12 +63,12 @@ export default {};
 footer {
   margin-top: 0px;
   color: #fff;
-  background-color: #363636;
+  background-color: #7030bc;
   padding: 70px 0px;
 }
 
 footer a {
-  color: #ddd;
+  color: #ddd !important;
   text-decoration: none;
   background-color: transparent;
 }
@@ -78,7 +78,7 @@ footer ul li {
 }
 
 .contact span {
-  color: #fff;
+  color: #fff !important;
   padding-bottom: 10px;
   margin-bottom: 20px;
   display: block;
@@ -95,11 +95,11 @@ footer ul li {
 }
 
 .copyrights {
-  background-color: #2f2e2e;
+  background-color: #5c289b;
   color: #fff;
   padding: 15px 0 15px 0;
 }
 .copyrights a {
-  color: #da5127;
+  color: #fff !important;
 }
 </style>

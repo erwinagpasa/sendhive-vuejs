@@ -182,4 +182,19 @@ export default {
 .cover h3 {
   margin-top: 20%;
 }
+
+.btn-outline-primary {
+  padding: 8px 30px 8px 30px !important;
+  display: inline-block;
+  color: #fff !important;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #da5127 !important;
+  background: #da5127;
+}
+
+.btn-outline-primary:hover {
+  background: #363636 !important;
+  border: 1px solid #363636 !important;
+}
 </style>

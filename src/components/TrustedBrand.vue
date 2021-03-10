@@ -5,20 +5,17 @@
     </h4>
 
     <div class="container brands">
-      <div class="row">
-        <div class="col"><img alt="Vue logo" src="../assets/craft.png" /></div>
-
-        <div class="col">
-          <img alt="Vue logo" src="../assets/lensabl.png" />
-        </div>
-        <div class="col">
-          <img alt="Vue logo" src="../assets/pit-viper.png" />
-        </div>
-        <div class="col">
-          <img alt="Vue logo" src="../assets/polaris.png" />
-        </div>
-        <div class="col">
-          <img alt="Vue logo" src="../assets/spice-house.png" />
+      <div class="col-md-8 mx-auto text-center">
+        <div class="row">
+          <div class="col">
+            <img alt="Vue logo" src="../assets/craft.png" />
+          </div>
+          <div class="col">
+            <img alt="Vue logo" src="../assets/lensabl.png" />
+          </div>
+          <div class="col">
+            <img alt="Vue logo" src="../assets/pit-viper.png" />
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
       <router-link to="/">
         <img alt="logo" src="../assets/logo.png" class="logo" />
       </router-link>
@@ -32,27 +32,34 @@
           </li>
         </ul>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </template>
 
 <script>
 export default {
   name: "Navbar",
-  mounted() {
-    $(window).scroll(function() {
-      $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
-    });
-  },
 };
 </script>
 
 <style lang="css" scoped>
-.bg-light {
-  background-color: none !important;
-}
-
 .navbar-brand img {
   width: 140px;
+}
+
+.btn-outline-primary {
+  padding: 8px 30px 8px 30px !important;
+  border-radius: 2em;
+  display: inline-block;
+  color: #fff !important;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #da5127 !important;
+  background: #da5127;
+}
+
+.btn-outline-primary:hover {
+  background: #363636 !important;
+  border: 1px solid #363636 !important;
 }
 </style>
