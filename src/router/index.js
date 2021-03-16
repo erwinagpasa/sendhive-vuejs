@@ -5,6 +5,8 @@ import Signin from "../views/Signin.vue";
 import Signup from "../views/Signup.vue";
 import Terms from "../views/Terms.vue";
 import Privacy from "../views/Privacy.vue";
+import Api from "../views/Api.vue";
+import Manual from "../views/Manual.vue";
 
 Vue.use(VueRouter);
 
@@ -35,7 +37,16 @@ const routes = [
     name: "Privacy",
     component: Privacy,
   },
-
+  {
+    path: "/api",
+    name: "Api",
+    component: Api,
+  },
+  {
+    path: "/manual",
+    name: "Manual",
+    component: Manual,
+  },
   {
     path: "/about",
     name: "About",
