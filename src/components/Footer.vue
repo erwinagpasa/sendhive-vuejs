@@ -20,11 +20,11 @@
             <ul class="contact">
               <span>Resources</span>
               <li>
-                <router-link to="/">User Manual</router-link>
+                <router-link to="/manual">User Manual</router-link>
               </li>
 
               <li>
-                <router-link to="/">API Reference</router-link>
+                <router-link to="/api">API Reference</router-link>
               </li>
             </ul>
           </div>
