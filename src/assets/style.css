@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
+
 html,
 body {
   height: 100%;
@@ -5,6 +7,7 @@ body {
   -ms-flex-align: center;
   background: rgb(243, 243, 243);
   font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 
 .gap-80 {
@@ -15,7 +18,9 @@ body {
 }
 
 a {
-  color: #333 !important;
+  color: #6b7280 !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
 }
 
 a:hover {
@@ -23,14 +28,36 @@ a:hover {
   text-decoration: none;
 }
 .logo {
-  max-width: 150px;
+  max-width: 180px;
 }
 .navbar {
-  padding: 10px 20px;
+  padding: 15px 20px 18px 20px !important;
+}
+
+.nav-link {
+  font-size: 15px;
 }
 .navbar-light {
   background: #fff;
   border-bottom: 1px solid #d5d5d5;
+}
+
+.btn-outline-primary {
+  padding: 8px 30px 8px 30px !important;
+  border-radius: 3px;
+  display: inline-block;
+  color: #6b7280 !important;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #d3d3d3 !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+}
+
+.btn-outline-primary:hover {
+  background: #da5127 !important;
+  border: 1px solid #da5127 !important;
+  color: #fff !important;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
@@ -40,21 +67,6 @@ a:hover {
   color: #333;
 }
 
-.btn-outline-primary {
-  padding: 8px 30px 8px 30px;
-  border-radius: 2em;
-  display: inline-block;
-  color: #fff !important;
-  transition: all 0.15s ease;
-  box-sizing: border-box;
-  border: 1px solid #da5127 !important;
-  background: #da5127;
-}
-
-.btn-outline-primary:hover {
-  background: #363636 !important;
-  border: 1px solid #363636 !important;
-}
 .newsletter-form {
   position: relative;
   max-width: 550px;
