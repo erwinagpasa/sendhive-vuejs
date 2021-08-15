@@ -25,7 +25,8 @@ export default {
 
 <style lang="css" scoped>
 .clickhtrough-wrap {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  background: #fff;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 </style>

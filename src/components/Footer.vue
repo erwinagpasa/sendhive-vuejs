@@ -67,7 +67,7 @@ export default {};
 footer {
   margin-top: 0px;
   color: #fff;
-  background-color: #7030bc;
+  background-color: #333;
   padding: 70px 0px;
 }
 
@@ -99,7 +99,7 @@ footer ul li {
 }
 
 .copyrights {
-  background-color: #5c289b;
+  background-color: #2d2d2d;
   color: #fff;
   padding: 15px 0 15px 0;
 }

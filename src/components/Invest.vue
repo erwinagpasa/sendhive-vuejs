@@ -36,13 +36,4 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
-.invest-wrap {
-  padding-top: 50px;
-  padding-bottom: 100px;
-  background: #f7f7f7;
-}
-.headline {
-  margin-top: 100px;
-}
-</style>
+<style lang="css" scoped></style>

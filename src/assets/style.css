@@ -12,6 +12,7 @@ body {
 
 .wrap-header {
   margin-top: 75px;
+  background: #fafafa;
 }
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
@@ -20,8 +21,22 @@ body {
   }
 }
 
+.brands-wrapper {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background: #fafafa;
+}
+
 .empower-wrap {
-  background-color: aqua;
+  background: #fafafa;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.invest-wrap {
+  background: #fafafa;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .no-gutters {
