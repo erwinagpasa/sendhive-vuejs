@@ -5,7 +5,7 @@
     <p class="text-center">Sign up in seconds. No credit card required.</p>
     <div class="col-md-10 mx-auto">
       <div class="row">
-        <div class="col-md-6 mt-5">
+        <div class="col-md-6 mt-5 mb-5">
           <form class="mr-5">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"
@@ -42,9 +42,10 @@
               />
             </div>
 
-            <button type="submit" class="btn btn-primary">
+            <router-link to="/welcome" class="mt-3 btn btn-primary">
               Create my account
-            </button>
+            </router-link>
+
             <p>
               <small>
                 By clicking, you agree to Terms of Use, Privacy Policy and
@@ -53,7 +54,7 @@
             </p>
           </form>
         </div>
-        <div class="col-md-6 mt-5">
+        <div class="col-md-6 mt-5 mb-5">
           <p><strong>Our Forever Free plan includes:</strong></p>
           <ul class="check">
             <li>

@@ -7,6 +7,7 @@ import Terms from "../views/Terms.vue";
 import Privacy from "../views/Privacy.vue";
 import Api from "../views/Api.vue";
 import Manual from "../views/Manual.vue";
+import Welcome from "../views/Welcome.vue";
 
 Vue.use(VueRouter);
 
@@ -46,6 +47,11 @@ const routes = [
     path: "/manual",
     name: "Manual",
     component: Manual,
+  },
+  {
+    path: "/welcome",
+    name: "Welcome",
+    component: Welcome,
   },
   {
     path: "/about",
