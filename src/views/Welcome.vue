@@ -18,48 +18,25 @@
         Ipsum.
       </p>
 
-      <section>
-        <div class="container">
-          <div class="accordion" id="accordionExample">
-            <div class="steps">
-              <progress id="progress" value="0" max="100"></progress>
-              <div class="step-item">
-                <button
-                  class="step-button text-center"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  1
-                </button>
-                <div class="step-title">
-                  Completed
-                </div>
-              </div>
-              <div class="step-item">
-                <button class="step-button text-center collapsed" type="button">
-                  2
-                </button>
-                <div class="step-title">
-                  Complete profile
-                </div>
-              </div>
-              <div class="step-item">
-                <button
-                  class="step-button text-center collapsed"
-                  type="button"
-                ></button>
-                <div class="step-title">
-                  Request approval
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <br /><br />
+      <div class="progressbar-wrapper">
+        <ul class="progressbar">
+          <li class="active">
+            <button type="button" class="btn btn-default btn-sm">
+              Completed
+            </button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary btn-sm">
+              Small button
+            </button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary btn-sm">
+              Small button
+            </button>
+          </li>
+        </ul>
+      </div>
       <br /><br />
     </div>
 
@@ -80,53 +57,80 @@ export default {
 </script>
 
 <style scoped>
-.steps {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
+.progressbar-wrapper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.progressbar li {
+  list-style-type: none;
+  width: 32%;
+  float: left;
+  font-size: 14px;
   position: relative;
-}
-
-.step-title {
-  border: 1px solid #ff0000;
-  padding: 10px 30px 10px 30px;
-  font-size: 12px;
-}
-
-.step-button {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  background-color: #ff0000;
-  transition: 0.4s;
-}
-
-.step-button[aria-expanded="true"] {
-  width: 50px;
-  height: 50px;
-  background-color: #ddd;
-  color: #fff;
-}
-
-.done {
-  background-color: green;
-  color: #fff;
-}
-
-.step-item {
-  z-index: 10;
   text-align: center;
+  text-transform: uppercase;
+  color: #7d7d7d;
 }
 
-#progress {
-  -webkit-appearance: none;
+.progressbar li:before {
+  width: 40px;
+  height: 40px;
+  content: "";
+  line-height: 35px;
+  border: 4px solid #7d7d7d;
+  display: block;
+  text-align: center;
+  margin: 0 auto 13px auto;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+}
+.progressbar li:after {
+  width: 100%;
+  height: 8px;
+  content: "";
   position: absolute;
-  width: 85%;
-  z-index: 5;
-  height: 10px;
-  margin-left: 55px;
-  margin-bottom: 20px;
+  background-color: #7d7d7d;
+  top: 16px;
+  left: -50%;
+  z-index: 0;
+}
+.progressbar li:first-child:after {
+  content: none;
+}
+
+.progressbar li.active {
+  color: green;
+  font-weight: bold;
+}
+.progressbar li.active:before {
+  border-color: #55b776;
+  background: green;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: #fff;
+}
+.progressbar li.active + li:after {
+  background-color: #55b776;
+}
+
+.progressbar li.active:before {
+  background: #55b776;
+  background-size: 60%;
+}
+.progressbar li::before {
+  background: #fff;
+  background-size: 60%;
+}
+
+.progressbar {
+  counter-reset: step;
+}
+.progressbar li:before {
+  content: "";
 }
 </style>
