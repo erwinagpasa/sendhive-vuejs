@@ -9,18 +9,28 @@
           <form class="mr-5">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
+                >Company or Organization
+              </label>
               <input
                 type="email"
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
             </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email Address
+              </label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label"
                 >Password</label
@@ -31,17 +41,16 @@
                 id="exampleInputPassword1"
               />
             </div>
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Check me out</label
-              >
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <button type="submit" class="btn btn-primary">
+              Create my account
+            </button>
+            <p>
+              <small>
+                By clicking, you agree to Terms of Use, Privacy Policy and
+                Anti-Spam Policy.
+              </small>
+            </p>
           </form>
         </div>
         <div class="col-md-6 mt-5">
