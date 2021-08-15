@@ -5,13 +5,19 @@ body {
   height: 100%;
   display: -ms-flexbox;
   -ms-flex-align: center;
-  background: #e5ff00;
+  background: #fafafa;
   font-family: "Roboto", sans-serif;
   font-weight: 300 !important;
 }
 
 .wrap-header {
-  background-color: #ff0000;
+  margin-top: 75px;
+}
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  #headline {
+    margin-top: 140px;
+  }
 }
 
 .empower-wrap {

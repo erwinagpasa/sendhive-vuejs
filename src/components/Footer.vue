@@ -50,7 +50,11 @@
     </footer>
 
     <div class="copyrights text-center">
-      &copy; 2021 Sendhive. All rights reserved.
+      <p>
+        Address: 5 Cypress Point Dr. Mountain View, CA 94043 USA<br />
+        Email:support@sendhive.io
+      </p>
+      <p>&copy; 2021 Sendhive. All rights reserved.</p>
     </div>
   </div>
 </template>

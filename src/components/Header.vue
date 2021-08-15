@@ -3,7 +3,7 @@
     <div class="col-md-10 mx-auto">
       <div class="row">
         <div class="col-md-6">
-          <h1>
+          <h1 id="headline">
             Automate your ecommerce marketing at scale
           </h1>
           <p>
@@ -24,7 +24,7 @@
         </div>
 
         <div class="col-md-6">
-          <img alt="slogo" src="../assets/hero.png" class="img-fluid" />
+          <img alt="slogo" src="../assets/hero.png" class="mt-5 img-fluid" />
         </div>
       </div>
     </div>
