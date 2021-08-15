@@ -17,7 +17,7 @@
             </router-link>
 
             <router-link to="/signup" class="ml-3 btn btn-secondary">
-              Sign up free
+              Dashboard
             </router-link>
           </div>
           <small>Get free 14-day trial to premium features</small>
