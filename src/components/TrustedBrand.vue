@@ -1,20 +1,42 @@
 <template>
   <div class="brands-wrapper">
-    <h4 class="mt-5 mb-5 text-center">
-      More than 8,000+ companies trust sendhive
-    </h4>
+    <div class="col-md-10 mx-auto">
+      <p>
+        Trusted by 6,000+ brands
+      </p>
 
-    <div class="container brands">
-      <div class="col-md-8 mx-auto text-center">
-        <div class="row">
-          <div class="col">
-            <img alt="Vue logo" src="../assets/craft.png" />
-          </div>
-          <div class="col">
-            <img alt="Vue logo" src="../assets/lensabl.png" />
-          </div>
-          <div class="col">
-            <img alt="Vue logo" src="../assets/pit-viper.png" />
+      <div class="col-md-12 no-gutters">
+        <div class="brands align-middle">
+          <div class="row">
+            <div class="col">
+              <img
+                alt="creatorhive logo"
+                src="../assets/creatorhive_b.png"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col">
+              <img
+                alt="greengenesis logo"
+                src="../assets/greengenesis_b.png"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col">
+              <img
+                alt="luxe logo"
+                src="../assets/luxe_b.png"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="col">
+              <img
+                alt="rply logo"
+                src="../assets/rply_b.png"
+                class="img-fluid"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -29,12 +51,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.brands-wrapper {
-  background: rgb(243, 243, 243);
-  padding-top: 50px;
-  padding-bottom: 130px;
-}
 .brands img {
-  width: 120px;
+  max-height: 106px;
 }
 </style>
