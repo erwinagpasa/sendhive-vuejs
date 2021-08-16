@@ -9,6 +9,8 @@ import Api from "../views/Api.vue";
 import Manual from "../views/Manual.vue";
 import Welcome from "../views/Welcome.vue";
 import Profile from "../views/Profile.vue";
+import Approval from "../views/Approval.vue";
+import Verify from "../views/Verify.vue";
 
 Vue.use(VueRouter);
 
@@ -60,6 +62,17 @@ const routes = [
     component: Profile,
   },
 
+  {
+    path: "/approval",
+    name: "Approval",
+    component: Approval,
+  },
+
+  {
+    path: "/verify",
+    name: "Verify",
+    component: Verify,
+  },
   {
     path: "/about",
     name: "About",

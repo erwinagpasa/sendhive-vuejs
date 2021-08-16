@@ -31,7 +31,7 @@
             </router-link>
           </li>
           <li>
-            <router-link to="/" class="btn btn-info btn-sm">
+            <router-link to="/approval" class="btn btn-info btn-sm">
               Request approval
             </router-link>
           </li>

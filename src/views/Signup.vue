@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Navbar />
     <h1 class="page-headline text-center">Get started with a free account</h1>
     <p class="text-center">Sign up in seconds. No credit card required.</p>
