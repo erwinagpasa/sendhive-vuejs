@@ -21,19 +21,19 @@
       <div class="progressbar-wrapper">
         <ul class="progressbar">
           <li class="active">
-            <button type="button" class="btn btn-default btn-sm">
+            <router-link to="/" class="btn btn-disable btn-sm">
               Completed
-            </button>
+            </router-link>
           </li>
           <li>
-            <button type="button" class="btn btn-primary btn-sm">
-              Small button
-            </button>
+            <router-link to="/profile" class="btn btn-info btn-sm">
+              Complete proﬁle
+            </router-link>
           </li>
           <li>
-            <button type="button" class="btn btn-primary btn-sm">
-              Small button
-            </button>
+            <router-link to="/" class="btn btn-info btn-sm">
+              Request approval
+            </router-link>
           </li>
         </ul>
       </div>
@@ -57,6 +57,10 @@ export default {
 </script>
 
 <style scoped>
+.btn-disable {
+  background: #ddd;
+  color: #999;
+}
 .progressbar-wrapper {
   width: 100%;
   padding-top: 50px;
@@ -70,7 +74,7 @@ export default {
   font-size: 14px;
   position: relative;
   text-align: center;
-  text-transform: uppercase;
+
   color: #7d7d7d;
 }
 
@@ -86,7 +90,7 @@ export default {
   border-radius: 50%;
   position: relative;
   z-index: 2;
-  background-color: #fff;
+  background: #fafafa;
 }
 .progressbar li:after {
   width: 100%;
@@ -123,7 +127,7 @@ export default {
   background-size: 60%;
 }
 .progressbar li::before {
-  background: #fff;
+  background: #fafafa;
   background-size: 60%;
 }
 

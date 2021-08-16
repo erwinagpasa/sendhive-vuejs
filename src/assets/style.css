@@ -68,6 +68,12 @@ a:hover {
   border-bottom: 1px solid #d5d5d5;
 }
 
+.btn-info {
+  color: #fff !important;
+  background-color: #595959 !important;
+  border-color: #3c3c3c !important;
+}
+
 .btn-primary {
   color: #fff !important;
   background-color: #da5127 !important;

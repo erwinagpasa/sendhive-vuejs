@@ -8,6 +8,7 @@ import Privacy from "../views/Privacy.vue";
 import Api from "../views/Api.vue";
 import Manual from "../views/Manual.vue";
 import Welcome from "../views/Welcome.vue";
+import Profile from "../views/Profile.vue";
 
 Vue.use(VueRouter);
 
@@ -53,6 +54,12 @@ const routes = [
     name: "Welcome",
     component: Welcome,
   },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: Profile,
+  },
+
   {
     path: "/about",
     name: "About",
