@@ -16,7 +16,7 @@
       >
     </p>
 
-    <div class="col-md-4 mx-auto no-gutters">
+    <div class="col-md-4 mx-auto">
       <form method="post" action="auth" class="form-signin">
         <input
           type="email"
