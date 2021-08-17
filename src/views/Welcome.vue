@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Navbar />
     <div class="col-md-8 mx-auto">
       <h1 class="page-headline text-center">Welcome to Sendhive</h1>

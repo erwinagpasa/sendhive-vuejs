@@ -1,21 +1,27 @@
 <template>
-  <div class="col-md-12 no-gutters row">
-    <div class="form-div2 mx-auto no-gutters">
-      <div class="col-md-12 text-center mx-auto  mt-3">
-        <img src="../assets/logo.png" class="mt-5" style="max-width:240px;" />
-      </div>
+  <div class="container-fluid">
+    <img
+      src="../assets/logo.png"
+      class="ml-3 mt-3 img-fluid"
+      style="max-width:180px;"
+    />
+
+    <h2 class="text-center" style="margin-top:140px;">
+      Sign in to your account.
+    </h2>
+    <p class="text-center">
+      Need a sendhive account?
+      <router-link to="/signup" class="text-success">
+        Create an account</router-link
+      >
+    </p>
+
+    <div class="col-md-4 mx-auto no-gutters">
       <form method="post" action="auth" class="form-signin">
-        <h4 class="mt-3 text-center">Sign in to your account.</h4>
-
-        <p class="text-center">
-          Need a sendhive account?
-          <router-link to="/signup">Create an account</router-link>
-        </p>
-
         <input
           type="email"
           name="email"
-          class="form-control"
+          class="mt-3 form-control"
           placeholder="Email address"
           value=""
           required
@@ -24,7 +30,7 @@
         <input
           type="password"
           name="password"
-          class="form-control"
+          class="mt-3 form-control"
           placeholder="Password"
           value=""
           required
@@ -51,12 +57,6 @@
         >
       </p>
     </div>
-    <!--col-md-4-->
-
-    <div class="cover col-md-8 no-gutters">
-      <div class="inner-cover"></div>
-    </div>
-    <!--col-md-8-->
   </div>
   <!--row-->
 </template>
