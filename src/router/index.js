@@ -11,6 +11,7 @@ import Welcome from "../views/Welcome.vue";
 import Profile from "../views/Profile.vue";
 import Approval from "../views/Approval.vue";
 import Verify from "../views/Verify.vue";
+import Forgot from "../views/Forgot.vue";
 
 Vue.use(VueRouter);
 
@@ -72,6 +73,11 @@ const routes = [
     path: "/verify",
     name: "Verify",
     component: Verify,
+  },
+  {
+    path: "/forgot",
+    name: "Forgot",
+    component: Forgot,
   },
   {
     path: "/about",

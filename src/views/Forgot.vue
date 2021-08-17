@@ -7,13 +7,10 @@
     />
 
     <h2 class="text-center" style="margin-top:140px;">
-      Sign in to your account.
+      Password reset
     </h2>
     <p class="text-center">
-      Need a sendhive account?
-      <router-link to="/signup" class="text-success">
-        Create an account</router-link
-      >
+      We'll email you instructions on how to reset your password.
     </p>
 
     <div class="col-md-4 mx-auto no-gutters">
@@ -27,22 +24,9 @@
           required
         />
 
-        <input
-          type="password"
-          name="password"
-          class="mt-3 form-control form-control-lg"
-          placeholder="Password"
-          value=""
-          required
-        />
-
-        <p class="float-right">
-          <router-link to="/forgot">Forgot password?</router-link>
-        </p>
-
         <input type="hidden" name="formsubmitted" value="TRUE" />
-        <button type="submit" class="btn btn-lg btn-primary btn-block">
-          Sign In
+        <button type="submit" class="mt-3 btn btn-lg btn-primary btn-block">
+          Send
         </button>
       </form>
       <div class="text-center">
@@ -63,7 +47,7 @@
 
 <script>
 export default {
-  name: "Signin",
+  name: "Forgot",
   components: {},
 };
 </script>
