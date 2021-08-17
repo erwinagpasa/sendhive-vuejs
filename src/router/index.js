@@ -7,6 +7,11 @@ import Terms from "../views/Terms.vue";
 import Privacy from "../views/Privacy.vue";
 import Api from "../views/Api.vue";
 import Manual from "../views/Manual.vue";
+import Welcome from "../views/Welcome.vue";
+import Profile from "../views/Profile.vue";
+import Approval from "../views/Approval.vue";
+import Verify from "../views/Verify.vue";
+import Forgot from "../views/Forgot.vue";
 
 Vue.use(VueRouter);
 
@@ -46,6 +51,33 @@ const routes = [
     path: "/manual",
     name: "Manual",
     component: Manual,
+  },
+  {
+    path: "/welcome",
+    name: "Welcome",
+    component: Welcome,
+  },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: Profile,
+  },
+
+  {
+    path: "/approval",
+    name: "Approval",
+    component: Approval,
+  },
+
+  {
+    path: "/verify",
+    name: "Verify",
+    component: Verify,
+  },
+  {
+    path: "/forgot",
+    name: "Forgot",
+    component: Forgot,
   },
   {
     path: "/about",

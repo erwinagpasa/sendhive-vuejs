@@ -50,7 +50,11 @@
     </footer>
 
     <div class="copyrights text-center">
-      &copy; 2021 Sendhive. All rights reserved.
+      <p>
+        Address: 5 Cypress Point Dr. Mountain View, CA 94043 USA<br />
+        Email:support@sendhive.io
+      </p>
+      <p>&copy; 2021 Sendhive. All rights reserved.</p>
     </div>
   </div>
 </template>
@@ -63,7 +67,7 @@ export default {};
 footer {
   margin-top: 0px;
   color: #fff;
-  background-color: #7030bc;
+  background-color: #333;
   padding: 70px 0px;
 }
 
@@ -95,7 +99,7 @@ footer ul li {
 }
 
 .copyrights {
-  background-color: #5c289b;
+  background-color: #2d2d2d;
   color: #fff;
   padding: 15px 0 15px 0;
 }

@@ -6,7 +6,7 @@
     <Empower />
     <Invest />
     <Clickthrough />
-    <Contact />
+
     <Footer />
   </div>
 </template>
@@ -20,7 +20,6 @@ import Empower from "@/components/Empower.vue";
 import Invest from "@/components/Invest.vue";
 import Clickthrough from "@/components/Clickthrough.vue";
 import Footer from "@/components/Footer.vue";
-import Contact from "../components/Contact.vue";
 
 export default {
   name: "Home",
@@ -31,10 +30,7 @@ export default {
     Empower,
     Invest,
     Clickthrough,
-    Contact,
     Footer,
   },
 };
 </script>
-
-Contact

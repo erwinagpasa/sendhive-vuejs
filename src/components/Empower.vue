@@ -38,8 +38,6 @@ export default {
 
 <style lang="css" scoped>
 .empower-wrap {
-  padding-top: 50px;
-  padding-bottom: 100px;
 }
 
 .headline {
