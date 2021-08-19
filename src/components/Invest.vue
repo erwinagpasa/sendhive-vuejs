@@ -3,7 +3,7 @@
     <div class="col-md-10 mx-auto">
       <div class="row">
         <div class="col-md-6">
-          <h1 class="headline">
+          <h1 class="headline mt-5">
             Invest in stronger relationships with your contacts.
           </h1>
           <p>

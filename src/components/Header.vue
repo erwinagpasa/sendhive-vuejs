@@ -3,7 +3,7 @@
     <div class="col-md-10 mx-auto">
       <div class="row">
         <div class="col-md-6">
-          <h1 id="headline">
+          <h1 id="headline" class="mt-5">
             Automate your ecommerce marketing at scale
           </h1>
           <p>
