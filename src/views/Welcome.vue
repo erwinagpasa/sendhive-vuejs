@@ -22,7 +22,7 @@
         <ul class="progressbar">
           <li class="active">
             <router-link to="/" class="btn btn-disable btn-sm">
-              Completed
+              Registration Completed
             </router-link>
           </li>
           <li>
