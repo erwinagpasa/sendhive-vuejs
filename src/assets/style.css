@@ -76,13 +76,13 @@ a:hover {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #ff8f02 !important;
-  border-color: #ff8f02 !important;
+  background-color: #f7a805 !important;
+  border-color: #f7a805 !important;
   padding: 10px 30px 10px 30px !important;
 }
 .btn-primary:hover {
-  background-color: #c95531 !important;
-  border-color: #c95531 !important;
+  background-color: #d48f03 !important;
+  border-color: #d48f03 !important;
 }
 
 .btn-secondary {
