@@ -14,6 +14,13 @@ body {
   margin-top: 75px;
   background: #fafafa;
 }
+
+@media (max-width: 1392px) {
+  #headline {
+    margin-top: 40px;
+  }
+}
+
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
   #headline {
@@ -75,10 +82,11 @@ a:hover {
 }
 
 .btn-primary {
-  color: #fff !important;
+  color: #000 !important;
   background-color: #f7a805 !important;
   border-color: #f7a805 !important;
   padding: 10px 30px 10px 30px !important;
+  border-color: #000;
 }
 .btn-primary:hover {
   background-color: #d48f03 !important;
