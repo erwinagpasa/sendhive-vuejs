@@ -1,27 +1,22 @@
 <template>
   <div>
     <Navbar />
-    <div class="inner-header">
-      <div class="container ">
+    <div class="container" style="padding-top:80px;">
+      <div class="col-md-12 mt-3 mb-5">
         <div class="row mt-5">
           <div class="col-md-6">
-            <h2 class="text-white">Privacy Policy</h2>
-            <p class="text-white">
+            <h2>Privacy Policy</h2>
+            <p>
               What we are about, and why you should work with us
             </p>
           </div>
           <div class="col-md-6 text-right mt-3">
-            <small class="text-white">
-              <router-link to="/" class="text-white">Home</router-link> /
-              Privacy Policy</small
+            <small>
+              <router-link to="/">Home</router-link> / Privacy Policy</small
             >
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="col-md-12 mt-3 mb-5">
-        <p>
+        <p class="mt-5">
           Protecting your private information is our priority. This Statement of
           Privacy applies to the https://SendHive .io and SendHive and governs
           data collection and usage. For the purposes of this Privacy Policy,

@@ -1,23 +1,19 @@
 <template>
   <div>
     <Navbar />
-    <div class="inner-header">
-      <div class="container ">
+    <div class="container" style="padding-top:80px;">
+      <div class="col-md-12 mt-5 mb-5">
         <div class="row mt-5">
           <div class="col-md-6">
-            <h2 class="text-white">Terms & Conditions</h2>
+            <h2>Terms & Conditions</h2>
           </div>
           <div class="col-md-6 text-right">
-            <small class="text-white">
-              <router-link to="/" class="text-white">Home</router-link> / Terms
-              & Conditions</small
+            <small>
+              <router-link to="/">Home</router-link> / Terms & Conditions</small
             >
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="col-md-12 mt-5 mb-5">
+
         <h3 class="mt-5">Agreement between user and http://sendhive.io</h3>
         <p>
           Welcome to http://sendhive.io. The http://sendhive.io website (the

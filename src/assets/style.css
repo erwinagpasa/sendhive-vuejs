@@ -111,9 +111,9 @@ a:hover {
 }
 
 .btn-outline-primary:hover {
-  background: #da5127 !important;
-  border: 1px solid #da5127 !important;
-  color: #fff !important;
+  background-color: #f7a805 !important;
+  border-color: #f7a805 !important;
+  color: #000 !important;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
